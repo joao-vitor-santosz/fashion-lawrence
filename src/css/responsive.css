@@ -1,0 +1,37 @@
+@media (max-width: 768px){
+    .logo-slogan {
+        text-align: center;
+    }
+
+    .logo-slogan h1 {
+        font-size: 40px;
+    }
+
+    .descricao {
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .conteudo-masculino {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .conteudo-feminino {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .descricao {
+        font-size: 25px;
+    }
+
+    .roupa-feminina {
+        padding-bottom: 0;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: antiquewhite url('./imagens/logo_da_empresa\ sem\ fundo.png') no-repeat center center fixed;
+}
+
+main {
+    padding: 40px;
+}
+
+.conteudo-masculino {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.roupa-masculina img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.conteudo-feminino {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.roupa-feminina{
+    padding: 50px;
+}
+
+.roupa-feminina img {
+    height: 300px;
+}
